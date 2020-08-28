@@ -1,0 +1,25 @@
+.container {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 3fr 1fr;
+  background-color: #f7f7f7;
+  width: 1280px;
+}
+/* // filter {
+//   height: 100;
+//   background-color: blueviolet;
+// }
+
+// goods { 
+//   height: 100;
+//   background-color: burlywood;
+//   display: grid;
+//   grid-template-columns: 1fr 1fr 1fr;
+//   grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+
+//   item {
+//     width:20;
+//     background-color: cadetblue;
+//   }
+// } */

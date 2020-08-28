@@ -1,0 +1,55 @@
+@font-face {
+  font-family: ProximaNova_Light; /*name font*/
+  src:url("../fonts/ProximaNova_Light.ttf");
+}
+
+@font-face {
+  font-family: ProximaNova_Regular; /*name font*/
+  src:url("../fonts/ProximaNova_Regular.ttf");
+}
+
+
+.filter {
+  height: 325;
+  width: 308;
+  background-color: #ffffff;
+
+  .result {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    width: 251px;
+    height: 35px;
+    background-color: #0284c6;
+    color: #ffffff;
+
+    .text {
+      font-family: ProximaNova_Light;
+      font-size: 14px;
+    }
+  }
+
+  .clear {
+    width: 251px;
+    height: 35px;
+    background-color: #f8f8f8;
+    color:#333333;
+  }
+
+  .title {
+    font-size: 17;
+    font-family: ProximaNova_Regular;
+    color: #4a4a4a;
+  }
+
+  .checkboxs {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+    .check {
+      font-size: 14px;
+      font-family: ProximaNova_Light;
+      color: #4a4a4a;
+    }
+  }
+}

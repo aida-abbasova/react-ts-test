@@ -1,0 +1,102 @@
+ 
+  @font-face {
+    font-family: ProximaNova_Light; /*name font*/
+    src:url("../../fonts/ProximaNova_Light.ttf");
+  }
+
+  @font-face {
+    font-family: ProximaNova_Regular; /*name font*/
+    src:url("../../fonts/ProximaNova_Regular.ttf");
+  }
+
+ .product {
+    width:307px;
+    height:509px;
+    background-color: #ffffff;
+    flex-direction: column;
+  }
+
+  .title {
+    font-family: ProximaNova_Regular;
+    font-size: 17.8px;
+    color: #262626;
+  }
+
+  .image {
+    width: 277.3px;
+    height: 200px;
+  }
+  
+  .apt {
+    font-family: ProximaNova_Light;
+    font-size: 11.8px;
+    color: #bfbfbf;
+  }
+
+  .avaibilitys {
+    display:flex;
+    flex-direction: row;
+
+    .check {
+      width: 8.9px;
+      height: 7px;
+    }
+
+    .avaibility {
+      font-family: ProximaNova_Light;
+      font-size: 12.8px;
+      color: #84c03d;
+    }
+  }
+
+  .params {
+    
+    font-family: ProximaNova_Light;
+    font-size: 11.8px;
+
+    .forParam {
+      flex-direction: row;
+      display:flex;
+
+      .param {
+        color: #9b9b9b;
+      }
+    
+      .value {
+        color: #4f4f4f;
+      }
+    }
+  }
+
+  .svgactive {
+    path {
+      fill: rgb(138, 128, 121)
+    }
+  }
+
+  .button {
+    background-color: #0284c6;
+    height: 35px;
+    width: 99px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .button__text {
+      margin-top:15%;
+      margin-right:15px;
+      margin-left:5px;
+      color:#ffffff;
+      font-size: ProximaNova_Regular;
+      font-size: 13.8px;
+      text-align: center;;
+    }
+
+    .cart {
+      width: 19px;
+      height: 17px;
+    }
+  }
+
+ 
